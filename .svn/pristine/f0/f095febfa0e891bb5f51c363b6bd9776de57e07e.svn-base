@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>문제 2 : </title>
+<link rel="stylesheet" type="text/css" href="css/problem2.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <div class="section_head">
+                <h2>뉴스</h2>
+                <div class="title_desc"><span>1-10 / 3,762건</span></div>
+                <a href="#" class="go_search_library">뉴스 라이브러리 검색<span class="section_bg search_icon"></span></a>
+                <div class="dc_line"></div>
+                <div class="news_option">
+                    <ul class="sort_option">
+                    <li><span class="section_bg checked"></span><span>정확도순</span></li>
+                    <li><a href="#"><span class="section_bg unchecked"></span>최신순</a></li>
+                    <li><a href="#"><span class="section_bg unchecked"></span>오래된순</a></li>
+                    </ul>
+                    <div class="news_update">
+                        <span>검색결과 자동고침</span>
+                        <a href="#" class="section_bg button_start"><span>시작</span></a>
+                        <a href="#" class="section_bg button_press_option"><span>언론사선택</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section_article">
+                <ul>
+                <li>
+                    <div class="article_thumbnail">
+                        <div class="section_bg thumbnail_wrapper">
+                            <img src="http://imgnews.naver.net/image/thumb80/044/2014/02/26/141563.jpg"
+                                 alt="Filipinos in Korea h" width="80" height="53">
+                        </div>
+                    </div>
+                    <dl>
+                    <dt>
+                        <a href="#" class="article_title">Filipinos in Korea help Haiyan survivors float</a>
+                    </dt>
+                    <dd class="sub_title">
+                        <span class="inline_text">코리아헤럴드</span>
+                        <span>|</span>
+                        <span class="section_bg newspaper">7면</span>
+                        <span>|</span>
+                        <span>2014.02.26 (수) 오후 8:04</span>
+                        <a href="#" class="section_bg share_article"><span class="blind">보내기</span></a>
+                    </dd>
+                    <dd>
+                        <span class="body_text">Members of the 601 Habit stand next to boats they donated, along with the recipients, on Bayas Island, the Philippines. (The 601 Habit) In the days before brick and mortar construction, villagers...</span>
+                        <span>
+                            <a href="#">네이버에서 보기</a>
+                            <span>|</span>
+                            <a href="#">관련기사 보기</a>
+                            <span>|</span>
+                            <a href="#">이 언론사 내 검색<span class="section_bg search_icon"></span></a>
+                        </span>
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <div class="article_thumbnail">
+                        <div class="section_bg thumbnail_wrapper">
+                            <img src="http://imgnews.naver.net/image/thumb80/5015/2014/02/07/97317.jpg"
+                                 alt="Portable USB Humidif" width="80" height="59">
+                        </div>
+                    </div>
+                    <dl>
+                    <dt>
+                        <a href="#" class="article_title">Portable USB Humidifier: All You Need To Do Is 'Float
+                            It On The Water!'</a>
+                    </dt>
+                    <dd class="sub_title">
+                        <span class="inline_text">에이빙뉴스</span>
+                        <span>|</span>
+                        <span>2014.02.07 (금) 오후 1:26</span>
+                        <a href="#" class="section_bg share_article"><span class="blind">보내기</span></a>
+                    </dd>
+                    <dd>
+                        <span class="body_text">Neotizen(www.neotizen.com) introduces its portable humidifier 'FOGRING', ultra?light-weight USB product. The product can be used in any container such as a cup or anything filled with water, and...</span>
+                        <span>
+                            <a href="#">관련기사 보기</a>
+                            <span>|</span>
+                            <a href="#">이 언론사 내 검색<span class="section_bg search_icon"></span></a>
+                        </span>
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <div class="article_thumbnail">
+                        <div class="section_bg thumbnail_wrapper">
+                            <img src="http://imgnews.naver.net/image/thumb80/091/2014/06/19/4338919.jpg"
+                                 alt="USA BASKETBALL NBA P" width="80" height="64">
+                        </div>
+                    </div>
+                    <dl>
+                    <dt>
+                        <a href="#" class="article_title">USA BASKETBALL NBA PLAYOFFS</a>
+                    </dt>
+                    <dd class="sub_title">
+                        <span class="inline_text">EPA연합뉴스</span>
+                        <span>|</span>
+                        <span>3일전</span>
+                        <a href="#" class="section_bg share_article"><span class="blind">보내기</span></a>
+                    </dd>
+                    <dd>
+                        <span class="body_text">USA BASKETBALL NBA PLAYOFFS San Antonio Spurs players Tony Parker (L) and Boris Diaw (R) wave to fans from a float during a parade celebrating their fifth NBA title win on 18 June 2014 on the Riverwalk in San...</span>
+                        <span>
+                            <a href="#">네이버에서 보기</a>
+                            <span>|</span>
+                            <a href="#">관련기사 보기</a>
+                            <span>|</span>
+                            <a href="#">이 언론사 내 검색<span class="section_bg search_icon"></span></a>
+                        </span>
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <div class="article_thumbnail">
+                        <div class="section_bg thumbnail_wrapper">
+                            <img src="http://imgnews.naver.net/image/thumb80/091/2014/06/19/4338927.jpg" alt="USA BASKETBALL NBA P" width="80" height="64">
+                        </div>
+                    </div>
+                    <dl>
+                    <dt>
+                        <a href="#" class="article_title">USA BASKETBALL NBA PLAYOFFS</a>
+                    </dt>
+                    <dd class="sub_title">
+                        <span class="inline_text">EPA연합뉴스</span>
+                        <span>|</span>
+                        <span>3일전</span>
+                        <a href="#" class="section_bg share_article"><span class="blind">보내기</span></a>
+                    </dd>
+                    <dd>
+                        <span class="body_text">USA BASKETBALL NBA PLAYOFFS San Antonio Spurs Manu Ginobili (L) waves and holds his son while player Tiago Splitter holds the NBA championship trophy on a float during a parade celebrating their fifth NBA...</span>
+                        <span>
+                            <a href="#">네이버에서 보기</a>
+                            <span>|</span>
+                            <a href="#">관련기사 보기</a>
+                            <span>|</span>
+                            <a href="#">이 언론사 내 검색<span class="section_bg search_icon"></span></a>
+                        </span>
+                    </dd>
+                    </dl>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

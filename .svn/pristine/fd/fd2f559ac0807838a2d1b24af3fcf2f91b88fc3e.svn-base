@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Common */body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.content{width:729px;margin:0 30px;padding:30px 0 20px 10px}
+
+/* NTS HEADER FOOTER */
+h1{width:100%;margin:0;padding:13px 0 11px;background:#000;font-size:18px;line-height:24px;font-family:'나눔고딕',sans-serif;color:#fff;text-indent:15px}
+h2{font-size:16px;line-height:24px;font-family:'나눔고딕',sans-serif}
+#footer{clear:both;margin:0;padding:10px;border-top:1px solid #ddd;font:10px Verdana;line-height:normal;color:#444;text-align:center;list-style:none}
+#footer address strong{font-weight:700;font-family:Tahoma;color:#00535d}
+
+#container{float:left;margin-top:10px;padding:5px}
+form{width:500px;padding:10px;background:url(../img/3_0.gif) no-repeat top}
+fieldset{margin-bottom:-10px;background:url(../img/3_0.gif) no-repeat bottom}
+table{margin-left:20px;border-top:1px solid #e5e5e5;border-collapse:collapse}
+table tr{height:37px}
+table tr th{width:90px;padding-left:10px;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;background:#f9f9f9;text-align:left}
+table tr td{width:339px;padding-left:20px;border-right:none;border-bottom:1px solid #e5e5e5;line-height:20px}
+table caption{height:19px;margin-top:9px;font-weight:700;color:#5cb342;text-align:left}
+input{border:1px solid #e5e5e5}
+input[type=checkbox]{margin:0 10px 0 0;border:none}
+label{margin:0 10px 0 0}
+.user_hobby{padding:10px}
+.button_wrapper{height:50px;padding:10px 0;text-align:center}
+.button_confirm{width:60px;height:31px;background:url(../img/3_1.gif)}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="UTF-8">
+    <title>문제 1 : 기사 리스트</title>
+    <link rel="stylesheet" type="text/css" href="css/1st_article.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div class="content">
+            <h2>1. 기사 리스트</h2>
+            <ul>
+            <li class="article_item">
+                <img src="img/1_1.jpg" width="66" height="100" alt="강호동">
+                <a href="#">강호동 &quot;유재석 흠집낼 구석없는 이시대 진정한 MC&quot; 극찬 진짜이유</a>
+                <span>강호동이 라이벌 유재석을 극찬했다. 강호동은 10월 31일 강원도 인제에서 진행된 &#39;1박2일&#39; 촬영현장에서 기자와 인터뷰를 갖는 자리에서 &quot;대한민국의 전무후무한 MC 유재석과 비교대상이
+                된다는 것 자체가 영광&quot;이라며 &quot;흠집을 내고 싶어도 낼 곳이 없는 아름다운 청년&quot;이라고 유재석을 치켜세웠다.
+
+                강호동이 라이벌 유재석을 극찬했다. 강호동은 10월 31일 강원도 인제에서 진행된 &#39;1박2일&#39; 촬영현장에서 기자와 인터뷰를 갖는 자리에서 &quot;대한민국의 전무후무한 MC 유재석과 비교대상이
+                된다는 것 자체가 영광&quot;이라며 &quot;흠집을 내고 싶어도 낼 곳이 없는 아름다운 청년&quot;이라고 유재석을 치켜세웠다.
+
+                강호동이 라이벌 유재석을 극찬했다. 강호동은 10월 31일 강원도 인제에서 진행된 &#39;1박2일&#39; 촬영현장에서 기자와 인터뷰를 갖는 자리에서 &quot;대한민국의 전무후무한 MC 유재석과 비교대상이
+                된다는 것 자체가 영광&quot;이라며 &quot;흠집을 내고 싶어도 낼 곳이 없는 아름다운 청년&quot;이라고 유재석을 치켜세웠다.</span>
+            </li>
+
+            <li class="article_item">
+                <a href="#">&#91;TV&#93; 박명수 &#39;유재석과 아기, 두명에게는 목숨도 바칠 수 있다&#39;</a>
+                <span>유재석에 대한 박명수의 애정표현 발언이 점점 거세지고 있다. 지난 11일 방송된 KBS 2TV &#39;해피투게더 시즌3&#39;에서 박명수는 허리에 복대를 차고 나타나 &quot;아기를 안다가 허리를 다쳤다.
+                다행히 아기는 다치지 않았다. 딸을 위해서면 목숨도 바칠 수 있다&quot;고 말했다.</span>
+            </li>
+
+            <li class="article_item">
+                <img src="img/1_2.jpg" width="100" height="71" alt="장동혁">
+                <a href="#">&#91;인터뷰&#93; 장동혁 &quot;유재석 선배 닮고 싶어요&quot;</a>
+                <span>KBS 2TV 개그콘서트의 간판코너 &#39;그려 안그려&#39; 의 개그맨 장동혁이 6개월간의 공백을 깨고 컴백해 개그계의 활력을 불어넣고 있다. 그동안 장동혁은 &#39;공포의 외인구단&#39; &#39;봉숭아학당&#39; 등
+                현란한 말솜씨로 시청자들의 혼을 빼앗을 만큼 강한 캐릭터를 선보였다.</span>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

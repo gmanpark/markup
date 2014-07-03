@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="UTF-8">
+    <title>문제 2 : 순위 리스트</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/1st_ranklist.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="contianer">
+        <div class="content">
+            <h2>2. 순위 리스트</h2>
+            <div class="lst_rank">
+                <ol>
+                    <li class="rank_1">
+                        <span>준코</span>
+                        <img src="img/2_13.gif" class="arrow">
+                        <span class="rank_hit">86</span>
+                    </li>
+                    <li class="rank_2">
+                    </li>
+                    <li class="rank_3">
+                    </li>
+                    <li class="rank_4"></li>
+                    <li class="rank_5"></li>
+                    <li class="rank_6"></li>
+                    <li class="rank_7"></li>
+                    <li class="rank_8"></li>
+                    <li class="rank_9"></li>
+                    <li class="rank_10"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright © <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

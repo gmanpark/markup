@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>문제 2 : </title>
+    <link rel="stylesheet" type="text/css" href="css/problem2.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <ul class="tab_menu">
+                <li class="btn_menu on">
+                    <a href="#">기본정보</a>
+                </li>
+            </ul>
+            <div class="menu_item">
+                <span class="info_desc">
+                    회원님의 정보 중 변경된 내용이 있는 경우, 아래에서 수정해주세요.<br>
+                    회원정보는 개인정보취급방침에 따라 안전하게 보호되며, 회원님의 명백한 동의 없이 공개 또는 제 3자에게<br>
+                    제공되지 않습니다.
+                <a href="#" class="policy_notice">개인정보취급방침</a>
+                </span>
+                <form>
+                    <fieldset>
+                        <legend class="frm_legend">표시 필수입력사항</legend>
+                        <table class="info_table">
+                            <tbody>
+                            <tr>
+                            <th scope="row">
+                                <span class="table_header">사용자 이름</span>
+                            </th>
+                            <td>
+                                <span class="user_name"> 서미연 <span class="gray_text"> ※ 개명으로 이름이 변경된 경우 '이름변경' 버튼을 눌러주세요.</span></span>
+                                <a href="#" class="btn_chgName"><span class="blind">이름변경</span></a>
+                            </td>
+                            </tr>
+                            <tr>
+                            <th scope="row">
+                                <label for="cell">
+                                <span class="table_header">사용자 연락처</span>
+                                </label>
+                            </th>
+                            <td>
+                                <p class="section">
+                                    <strong>1. 비상 연락용 이메일 주소</strong>
+                                    <span class="gray_text">아이디나 비밀번호를 찾기 위해 사용할 이메일 정보입니다.</span>
+                                    <span class="orange_text">안전한 정보 변경을 위해 먼저 지금 등록된 이메일 주소를 정확히 입력해주세요.</span>
+                                    <span class="current_register">등록된 이메일 : (등록된 이메일 없음)</span>
+                                    <span class="orange_text">
+                                        지금 로그인한 네이버 아이디나, 다른 사람의 네이버 아이디는 연락처로 사용하실 수 없습니다.<br>
+                                        비상 시 사용할 이메일 정보이니 정확하게 입력해 주세요!
+                                    </span>
+                                </p>
+                                <p class="section">
+                                    <strong>2. 휴대폰 번호</strong>
+                                    <span class="gray_text">아이디, 비밀번호를 찾거나 네이버 서비스로부터 알림을 받기 위한 휴대폰 번호입니다.</span>
+                                    <span class="orange_text">안전한 정보 변경을 위해 먼저 지금 등록된 휴대폰 번호를 정확히 입력해주세요.</span>
+                                    <span class="current_register">등록된 휴대폰 번호 : 010-2***-***0</span>
+                                    <span class="phone_validate">휴대폰 번호 확인 <input type="tel" size="15" id="cell"></span>
+                                    <a href="#" class="phone_confirm"><span class="blind">확인</span></a>
+                                </p>
+                                <p class="section">
+                                    <strong>3. 자주 쓰는 이메일 주소</strong>
+                                    <span class="gray_text">네이버 서비스로부터 이벤트 소식 및 알림을 받기 위해 사용할 이메일 주소를 등록해 주세요.</span>
+                                    <div>
+                                    <input type="text" id="email_left" size="15"> @ <input type="text" id="email_right" size="15">
+                                    <select title="이메일 주소" id="email_select">
+                                        <option selected>naver.com</option>
+                                    </select>
+                                    </div>
+                                </p>
+                            </td>
+                            </tr>
+                            <tr>
+                            <th scope="row"><label for="subscribe">이메일 수신여부</label></th>
+                            <td>
+                                <div>
+                                    <label for="subscribe">
+                                        <input type="checkbox" name="수신" id="subscribe">
+                                        <span class="subscribe_desc">서비스 오픈/변경 및 이벤트 소식이 담긴 홍보성 메일을 수신하지 않겠습니다.
+                                            <br>체크아웃, 마일리지 서비스는 해당 서비스의 마이페이지에서 수신 여부를 설정할 수 있습니다.
+                                        </span>
+                                    </label>
+                                </div>
+                                <span class="orange_text">주요 공지사항 및 이벤트 당첨 안내등은 수신 동의 여부에 관계없이 발송되며,<br>이메일 수신동의 상태의 반영은 최대 2일이 소요될 수 있습니다.</span>
+                            </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                </form>
+                <span class="btn_find_id">가입된 다른 아이디가 궁금하다면? <a href="#"> 아이디 찾기 바로가기<span></span></a></span>
+                <div class="btn_area">
+                    <a href="#" class="btn_confirm"><span class="blind">확인</span></a>
+                    <a href="#" class="btn_reset"><span class="blind">다시입력</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

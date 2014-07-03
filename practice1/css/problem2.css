@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+/* common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/* NTS header footer */
+h1{width:100%;margin:0;padding:13px 0 11px;background:#000;font-size:18px;line-height:24px;font-family:'나눔고딕',sans-serif;color:#fff;text-indent:15px}
+h2{font-size:16px;font-family:'나눔고딕',sans-serif}
+#footer{clear:both;margin:0;padding:10px;border-top:1px solid #ddd;font:10px Verdana;line-height:normal;color:#444;text-align:center;list-style:none}
+#footer address strong{font-weight:700;font-family:Tahoma,Geneva,sans-serifahoma;color:#00535d}
+
+/* problem2.css */
+#container{margin:10px}
+#container {*zoom:1;} /* IE5.5~7 브라우저 대응 Hack */
+#container:after {content:"";display:block;clear:both;} /* float 해제 */
+
+.section_bg{background: url(../img/sp_problem2.png) no-repeat;}
+.search_icon{display:inline-block;background-position:-70px 0;width:12px;height:12px;}
+
+.section_head{width:100%;min-width:600px;max-width:700px;}
+.section_head h2{float:left;margin:0 14px 14px 0px;font-size:13px;color:#000;font-family:'굴림',gulim,helvetica,sans-serif}
+.section_head .title_desc{float:left;font-size:12px;font-family:'굴림',gulim,helvetica,sans-serif;color:#666;}
+.section_head .go_search_library{float:right;padding-right:14px;;font-size:12px;color:#666;text-decoration:underline;}
+.section_head .dc_line{clear: both;width: 100%;padding:0 0 24px;border-top:2px solid #868686;}
+.section_head .news_option{float:left;width:100%;margin:-14px 0 20px;padding:0 0 3px;border-bottom:1px solid #ededed;}
+.section_head .sort_option li{float:left;padding-right:5px;font-family:'돋움',dotum,'Apple SD Gothic NEO',helvetica,sans-serif;font-size: 11px;letter-spacing: -1px;}
+.section_head .sort_option .checked{display:inline-block;background-position:-90px 0; width:9px; height:9px;}
+.section_head .sort_option .unchecked{display:inline-block;background-position:-90px -20px; width:9px; height:9px;}
+.section_head .sort_option a{padding-left:10px;color:#666;}
+.section_head .news_update{float:right;margin:-3px 0 3px;}
+.section_head .button_start{display:inline-block;width:46px;height:22px;margin:-1px 0 1px 1px;background-position:0 0px;font-size:0;line-height: 0;vertical-align: middle;}
+.section_head .button_press_option{display:inline-block;width:76px;height:22px;margin:-1px 0 1px 1px;overflow:hidden;background-position: 0 -30px;font-size: 0;line-height: 0;vertical-align: middle;}
+
+.section_article li{clear: both;width:100%;max-width:700px;margin-bottom:18px;vertical-align:top;}
+.section_article li:after{content:"";display:block;clear:both;}
+.section_article .thumbnail_wrapper{display:table-cell;width:82px;height:82px;background-position:0 -60px;text-align:center;vertical-align:middle;}
+.section_article .article_thumbnail{float:left;margin:0 10px 10px;}
+.section_article .article_title{text-decoration: underline;font-family:'굴림',gulim,helvetica,sans-serif;font-size:13px;}
+.section_article .newspaper{padding-left:18px;background-position: -90px -50px;}
+.section_article .share_article{display:inline-block;overflow: hidden;vertical-align: top;width:19px;height:19px;background-position:-110px 0px;}
+.section_article .body_text{display:block;position:relative;overflow: hidden;color: #000;}
+.section_article:after{content:""; display:block; clear:both;}
+.section_article dl{overflow:hidden;}
+.section_article dt{float:left;}
+.section_article dd{float:left;line-height:18px;display:inline;font-size:12px;color:#666;font-family:'굴림',gulim,helvetica,sans-serif}
+.section_article .sub_title{padding:0 10px 0;}

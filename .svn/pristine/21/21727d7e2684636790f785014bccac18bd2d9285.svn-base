@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>문제 1 : </title>
+    <link rel="stylesheet" type="text/css" href="css/problem1.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <div class="movie_section">
+                <div class="section_head">
+                    <h2>동영상</h2>
+                    <div class="button_report">
+                        <a href="#">
+                        <img src="img/problem1_01.png" width="86" height="21" alt="동영상 신고하기">
+                        </a>
+                    </div>
+                </div>
+                <ul>
+                <li>
+                    <a href="#">
+                        <span><img src="img/problem1_02.png" width="120" height="92" alt="동영상1"></span>
+                        D-Day's winning engineer...
+                    </a>
+                    <span class="movie_info">youtube<span class="movie_date">2014.06.06</span></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><img src="img/problem1_03.png" width="120" height="92" alt="동영상2"></span>
+                        Why does ice float?
+                    </a>
+                    <span class="movie_info">youtube<span class="movie_date">2014.04.02</span></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><img src="img/problem1_04.png" width="120" height="92" alt="동영상3"></span>
+                        아동 여름대비 Sprinkling...
+                    </a>
+                    <span class="movie_info">네이버 블로그<span class="movie_date">2014.05.01</span></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <span><img src="img/problem1_05.png" width="120" height="92" alt="동영상4"></span>
+                        Bart van Bueren 白汎捕 :...
+                    </a>
+                    <span class="movie_info">youtube<span class="movie_date">2014.04.12</span></span>
+                </li>
+                </ul>
+                <div class="section_more">
+                    <a href="#" class="go_more">동영상 더보기<span class="go_more_icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

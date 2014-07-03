@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+/* Common */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    margin: 0;
+    padding: 0
+}
+
+body, input, textarea, select, button, table {
+    font-family: '돋움', Dotum, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+img, fieldset {
+    border: 0
+}
+
+ul, ol {
+    list-style: none
+}
+
+em, address {
+    font-style: normal
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline
+}
+
+.blind {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0
+}
+
+.content {
+    width: 729px;
+    padding: 30px 0 20px 10px;
+    margin: 0 30px;
+}
+
+#container {
+    float: left;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+form {
+    background: url("../img/3_0.gif") no-repeat top;
+    width: 500px;
+    padding: 10px;
+}
+
+table {
+    margin-left: 20px;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5
+}
+
+table caption {
+    margin-top: 9px;
+    height: 19px;
+    text-align: left;
+    color: #5cb342;
+    font-weight: bold
+}
+
+table tr {
+    height: 37px
+}
+
+table tr th {
+    width: 90px;
+    padding-left: 10px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f9f9f9;
+    text-align: left
+}
+
+table tr td {
+    width: 339px;
+    padding-left: 20px;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 20px
+}
+
+input {
+    border: 1px solid #e5e5e5
+}
+
+.button_wrapper {
+    height: 50px;
+    text-align: center;
+    margin-bottom: -10px;
+    background: url("../img/3_0.gif") no-repeat bottom;
+    padding: 10px 0 10px;
+}
+
+.button_confirm {
+    width: 57px;
+    height: 29px;
+    background: url("../img/3_1.gif")
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "나눔고딕", sans-serif;
+}
+
+/* Header */
+h1 {
+    width: 100%;
+    margin: 0;
+    padding: 13px 0 11px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    text-indent: 15px;
+    background: #000;
+    font-family: "나눔고딕", sans-serif;
+}
+
+/* Footer */
+#footer * {
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #444;
+    list-style: none;
+    font: 10px Verdana;
+    line-height: normal;
+    border-top: 1px solid #ddd;
+}
+
+#footer address strong {
+    font-weight: bold;
+    font-family: Tahoma;
+    color: #00535d;
+}

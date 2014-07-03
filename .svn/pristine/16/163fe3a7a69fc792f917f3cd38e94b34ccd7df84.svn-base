@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+/* common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/* NTS header footer */
+h1{width:100%;margin:0;padding:13px 0 11px;background:#000;font-size:18px;line-height:24px;font-family:'나눔고딕',sans-serif;color:#fff;text-indent:15px}
+h2{font-size:16px;line-height:24px;font-family:'나눔고딕',sans-serif}
+#footer{clear:both;margin:0;padding:10px;border-top:1px solid #ddd;font:10px Verdana;line-height:normal;color:#444;text-align:center;list-style:none}
+#footer address strong{font-weight:700;font-family:Tahoma,Geneva,sans-serifahoma;color:#00535d}
+
+/* problem1 stylesheet */
+#container{margin: 10px}
+#container {zoom:1}
+#container:after {content:""; display:block; clear:both} /* float 해제 */
+
+.contact{margin: 0 auto;padding:30px;width:417px;height:100%;border:1px solid #DADADA}
+.contact_detail{display:block;float:right;width:18px;height:18px;background: url(../img/sp_problem1.png) 0 0 no-repeat}
+.info_box{display:none}
+.red{color:red}
+.btn_more{display:block;padding: 2px 0;width:18px;height:18px;background: url(../img/sp_problem1.png) 0 0 no-repeat}
+.btn_more:active + .info_box{display:inline-block;position:relative;top:10px;left:-400px;width:417px;height:100%}
+.btn_more.on{background-position:0 -30px}
+.contact_detail:active{margin-bottom: 60px}
+.contact_title{float:left;font-size:20px;font-family:'돋움',Dotum,sans-serif}
+dl{overflow:hidden;display:inline-block;padding:10px 0 10px;}
+dt{float:left;width:40%;margin:7px 0 7px;font-size:12px;font-weight:bold;font-family:'돋움',Dotum,sans-serif}
+dd{display:inline-block;margin:5px 0 5px;overflow:hidden;width:60%;font-size:14px;font-family:'돋움',Dotum,sans-serif}
+.btn_modify{display:block;width:77px;height:33px;background: url(../img/sp_problem1.png) 0 -60px no-repeat}

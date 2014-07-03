@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="UTF-8">
+    <title>문제 3 : 회원가입</title>
+    <link rel="stylesheet" type="text/css" href="css/1st_register.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div class="content">
+            <h2>3. 회원 가입</h2>
+
+            <form>
+                <table cellspacing="0" cellpadding="0" summary="회원가입을 위한 기본정보 입력">
+                    <caption>회원기본정보입력</caption>
+                    <tbody>
+                    <tr>
+                        <th><label for="user_name">이름</label></th>
+                        <td><input type="text" id="user_name"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_id">아이디</label></th>
+                        <td><input type="text" id="user_id"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_pw">패스워드</label></th>
+                        <td><input type="password" id="user_pw"></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table cellspacing="0" cellpadding="0" summary="회원가입을 위한 선택정보 입력">
+                    <caption>회원선택정보입력</caption>
+                    <tbody>
+                    <tr>
+                        <th>휴대폰번호</th>
+                        <td>
+                            <label for="user_mobile_first" class="blind">휴대폰번호 앞자리</label>
+                            <select id="user_mobile_first">
+                                <option value="">선택</option>
+                                <option value="010">010</option>
+                                <option value="011">070</option>
+                                <option value="016">011</option>
+                                <option value="017">017</option>
+                                <option value="019">018</option>
+                            </select>
+                            ‐
+                            <label for="user_mobile_second" class="blind">휴대폰 번호 중간 4자리</label>
+                            <input type="text" id="user_mobile_second" maxlength="4" size="5">
+                            ‐
+                            <label for="user_mobile_third" class="blind">휴대폰 번호 뒤 4자리</label>
+                            <input type="text" id="user_mobile_third" maxlength="4" size="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>취미</th>
+                        <td class="user_hobby">
+                            <input type="checkbox" id="fishing"><label for="fishing">낚시</label>
+                            <input type="checkbox" id="exercise"><label for="exercise">운동</label>
+                            <input type="checkbox" id="game"><label for="game">게임</label>
+                            <input type="checkbox" id="music"><label for="music">음악감상</label>
+                            <input type="checkbox" id="fishing1"><label for="fishing1">낚시</label>
+                            <input type="checkbox" id="exercise1"><label for="exercise1">운동</label>
+                            <input type="checkbox" id="game1"><label for="game1">게임</label>
+                            <input type="checkbox" id="music1"><label for="music1">음악감상</label>
+                            <input type="checkbox" id="fishing2"><label for="fishing2">낚시</label>
+                            <input type="checkbox" id="exercise2"><label for="exercise2">운동</label>
+                            <input type="checkbox" id="game2"><label for="game2">게임</label>
+                            <input type="checkbox" id="music2"><label for="music2">음악감상</label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="button_wrapper">
+                    <button type="button" class="button_confirm"><span class="blind">확인</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+
+</div>
+</body>
+</html>

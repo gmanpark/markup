@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>문제 1 : </title>
+<link rel="stylesheet" type="text/css" href="css/problem1.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <div class="contact">
+                <h2 class="contact_title">연락처</h2>
+                <div class="contact_detail">
+                    <a href="" title="도움말" class="btn_more"><span class="blind">더보기</span></a>
+                    <div class="info_box">네이버에서<b class="red">중요 내용을 알려드릴 때 사용</b>하는 연락처 정보입니다. 보다 안전한 정보 보호를 위해 등록된
+                        연락처의 일부만 보여드립니다. 이름 및 정확한 연락처 정보는 수정 화면에서 확인 가능합니다.
+                    </div>
+                </div>
+                <dl>
+                <dt> 기본 이메일</dt>
+                <dd> 06******@n*******.com</dd>
+                <dt> 본인확인 이메일</dt>
+                <dd> 등록된 이메일 없음</dd>
+                <dt> 휴대전화</dt>
+                <dd> 010-2***-***6</dd>
+                </dl>
+                <a href="#" class="btn_modify"><span class="blind">수정</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

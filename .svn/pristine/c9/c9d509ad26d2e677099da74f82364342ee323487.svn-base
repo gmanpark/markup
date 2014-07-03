@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>문제 2 : 순위 리스트</title>
+<link rel="stylesheet" type="text/css" href="css/1st_ranklist.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <h2>2. 순위 리스트</h2>
+            <div class="list_rank">
+                <ol>
+                <li>
+                    <span class="sp_rank rank1"></span>
+                    <a href="#">준코</a>
+                    <!-- [D] 순위 변동에 따른 클래스 변화
+                        상승 : rank_up
+                        하강 : rank_down
+                        신규 : new -->
+                    <span class="sp_rank rank_up"><span class="blind">상승</span></span>
+                    <span class="rank_hit">86<span class="blind">위</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank2"></span>
+                    <a href="#">골든디스크골든디스크골든디스크골든디스크</a>
+                    <span class="sp_rank new"><span class="blind">신규</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank3"></span>
+                    <a href="#">수능만점자</a>
+                    <span class="sp_rank new"><span class="blind">신규</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank4"></span>
+                    <a href="#">박창희</a>
+                    <span class="sp_rank new"><span class="blind">신규</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank5"></span>
+                    <a href="#">진학사</a>
+                    <span class="sp_rank new"><span class="blind">신규</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank6"></span>
+                    <a href="#">준코미니홈피</a>
+                    <span class="sp_rank new"><span class="blind">신규</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank7"></span>
+                    <a href="#">배치표</a>
+                    <span class="sp_rank rank_up"><span class="blind">상승</span></span>
+                    <span class="rank_hit">1745<span class="blind">위</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank8"></span>
+                    <a href="#">수능등급컷</a>
+                    <span class="sp_rank rank_up"><span class="blind">상승</span></span>
+                    <span class="rank_hit">1<span class="blind">위</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank9"></span>
+                    <a href="#">붐</a>
+                    <span class="sp_rank rank_up"><span class="blind">상승</span></span>
+                    <span class="rank_hit">212<span class="blind">위</span></span>
+                </li>
+                <li>
+                    <span class="sp_rank rank10"></span>
+                    <a href="#">무릎팍도사</a>
+                    <span class="sp_rank rank_up"><span class="blind">상승</span></span>
+                    <span class="rank_hit">1879<span class="blind">위</span></span>
+                </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

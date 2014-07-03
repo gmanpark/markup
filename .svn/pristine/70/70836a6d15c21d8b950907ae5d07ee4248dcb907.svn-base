@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>문제 2 : </title>
+    <link rel="stylesheet" type="text/css" href="css/problem2.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div id="content">
+            <div class="section_head">
+                <h2>뉴스</h2>
+
+                <div class="title_desc"><span>1-10 / 3,762건</span></div>
+                <a href="#" class="go_search_library">뉴스 라이브러리 검색</a>
+
+                <div class="dc_line"></div>
+                <div class="news_option">
+                    <ul class="sort">
+                        <li class="select"><span>정확도순</span></li>
+                        <li><a href="#">최신순</a></li>
+                        <li><a href="#">오래된순</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

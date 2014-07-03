@@ -1,0 +1,105 @@
+.content {
+    width: 729px;
+    padding: 30px 0 20px;
+    margin: 0 30px;
+}
+
+.lst_rank {
+    padding-top: 10px;
+    background: url('../img/2_0.gif') no-repeat top left;
+}
+
+.lst_rank ol {
+    width: 230px;
+    font-family: '돋움', dotum, applegothic, sans-serif;
+    font-size: 12px;
+    color: #002a5b;
+    background: url('../img/2_0.gif') no-repeat bottom;
+    list-style-position: inside;
+    line-height: 20px;
+
+}
+
+.rank_hit{
+    float:right;
+    padding-right: 10px;
+}
+
+.rank_1 {
+    list-style-image: url('../img/2_1.gif');
+    padding-left: 10px;
+}
+
+.rank_2 {
+    list-style-image: url('../img/2_2.gif');
+}
+
+.rank_3 {
+    list-style-image: url('../img/2_3.gif');
+}
+
+.rank_4 {
+    list-style-image: url('../img/2_4.gif');
+}
+
+.rank_5 {
+    list-style-image: url('../img/2_5.gif');
+}
+
+.rank_6 {
+     list-style-image: url('../img/2_6.gif');
+}
+
+.rank_7 {
+    list-style-image: url('../img/2_7.gif');
+}
+
+.rank_8 {
+    list-style-image: url('../img/2_8.gif');
+}
+
+.rank_9 {
+    list-style-image: url('../img/2_9.gif');
+}
+
+.rank_10 {
+    list-style-image: url('../img/2_10.gif');
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "나눔고딕", sans-serif;
+}
+
+/* Header */
+h1 {
+    width: 100%;
+    margin: 0;
+    padding: 13px 0 11px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    text-indent: 15px;
+    background: #000;
+    font-family: "나눔고딕", sans-serif;
+}
+
+/* Footer */
+#footer * {
+    clear: both;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #444;
+    list-style: none;
+    font: 10px Verdana;
+    line-height: normal;
+    border-top: 1px solid #ddd;
+}
+
+#footer address strong {
+    font-weight: bold;
+    font-family: Tahoma;
+    color: #00535d;
+}

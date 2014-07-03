@@ -1,0 +1,31 @@
+@charset "utf-8";
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:"돋움", Dotum, Helvetica, sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.content{width:729px;margin:0 30px;padding:30px 0 20px 10px}
+ol{margin: 2px; padding:5px 0;}
+ol li{list-style-position:inside;margin:10px}
+.list_rank{float:left;margin-bottom:20px;background:url(../img/2_0.gif) repeat-y top}
+.list_rank ol{width:230px;font-family:"돋움", dotum, applegothic, sans-serif;font-size:12px;color:#002a5b;background:url(../img/2_0.gif) repeat-y bottom;margin-bottom:-10px}
+.list_rank_text{display:inline-block;width:135px}
+.rank_arrow{margin-left:5px}
+.rank_hit{width:20px;display:inline-block;text-align:center;font-family:tahoma;font-size:11px;color:#5b5b5b;margin:0 0 0 5px}
+.rank_1{list-style-image:url(../img/2_1.gif)}
+.rank_2{list-style-image:url(../img/2_2.gif)}
+.rank_3{list-style-image:url(../img/2_3.gif)}
+.rank_4{list-style-image:url(../img/2_4.gif)}
+.rank_5{list-style-image:url(../img/2_5.gif)}
+.rank_6{list-style-image:url(../img/2_6.gif)}
+.rank_7{list-style-image:url(../img/2_7.gif)}
+.rank_8{list-style-image:url(../img/2_8.gif)}
+.rank_9{list-style-image:url(../img/2_9.gif)}
+.rank_10{list-style-image:url(../img/2_10.gif)}
+h2{font-size:16px;line-height:24px;font-family:"나눔고딕", sans-serif}
+h1{width:100%;color:#fff;font-size:18px;line-height:24px;text-indent:15px;background:#000;font-family:"나눔고딕", sans-serif;margin:0;padding:13px 0 11px}
+#footer *{clear:both;text-align:center;color:#444;list-style:none;font:10px Verdana;line-height:normal;border-top:1px solid #ddd;margin:0;padding:10px}
+#footer address strong{font-weight:700;font-family:Tahoma;color:#00535d}

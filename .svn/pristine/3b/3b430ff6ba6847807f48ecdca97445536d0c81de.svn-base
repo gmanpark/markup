@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+/* common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/* nts header footer */
+h1{width:100%;margin:0;padding:13px 0 11px;background:#000;font-size:18px;line-height:24px;font-family:'나눔고딕',sans-serif;color:#fff;text-indent:15px}
+h2{font-size:16px;font-family:'나눔고딕',sans-serif}
+#footer{clear:both;margin:0;padding:10px;border-top:1px solid #ddd;font:10px Verdana;line-height:normal;color:#444;text-align:center;list-style:none}
+#footer address strong{font-weight:700;font-family:Tahoma,Geneva,sans-serif;color:#00535d}
+
+/* problem2 style sheet */
+#container{margin:10px}
+#container{zoom:1}
+#container:after{content:"";display:block;clear:both} /* float 해제 */
+#content{width:852px;margin:0 auto;font-family:'돋움',Dotum,sans-serif;font-size:12px}
+
+
+.tab_menu{overflow:hidden;border-bottom:1px solid #ccc;list-style:none}
+.btn_menu{padding:10px 0;width:124px;position:relative;height:15px;text-align:center}
+.on{border:1px solid #ccc;border-bottom:1px solid #fff;font-size: 12px}
+.info_desc{display:block;text-align:left;padding:10px 0;width:100%;color:#888}
+.policy_notice{text-decoration:underline}
+.frm_legend {padding-left:10px;background:url(../img/sp_problem2.png) -100px -8px no-repeat;text-align:right}
+.info_table{border-collapse:collapse;border-top:1px solid #e4e5e7;border-bottom:1px solid #e4e5e7}
+.info_table th{padding:10px 30px 20px;vertical-align:top;width:30%;background:#eff0f2;border:1px solid #e4e5e7;border-width:0px 1px 1px 0px;text-align:left}
+.info_table td{padding:10px;width:60%;height:100%;border-bottom:1px solid #e4e5e7}
+.info_table strong{display:block;letter-spacing:-1px;line-height:25px}
+.table_header{padding-left:10px;background: url(../img/sp_problem2.png) -100px -8px no-repeat}
+.user_name{float:left;padding:3px 0}
+.btn_chgName{display:inline-block;margin:0 10px;width:50px;height:20px;background: url(../img/sp_problem2.png) 0 -80px no-repeat}
+.gray_text {display:inline-block;color:#666;font-size:11px;letter-spacing:-1px}
+.orange_text {display:inline-block;color:#FF6000;letter-spacing:-1px;font-size:11px}
+.section{overflow:hidden;padding:0 0 10px}
+.current_register{display:block; padding:10px 0}
+.phone_validate{float:left}
+.phone_confirm{display:inline-block;margin:-2px 5px;width:37px;height:22px;background:url(../img/sp_problem2.png) 0 -110px no-repeat}
+.subscribe_desc{margin:0 0 5px}
+.subscribe_desc span{display:inline-block;overflow:hidden;padding-left:10px}
+.chk_subscribe{float:left}
+.btn_find_id{display:block;margin:10px 0}
+.btn_find_id a{padding-right:30px;color:#33AA00;text-decoration:underline;font-weight: bold}
+.btn_find_id span{display:inline-block;width:5px;height:6px;background:url(../img/sp_problem2.png) -100px -30px no-repeat}
+.btn_area{text-align: center}
+.btn_confirm{display:inline-block;width:60px;height:30px;background:url(../img/sp_problem2.png) 0 0 no-repeat}
+.btn_reset{display:inline-block;width:68px;height:30px;background:url(../img/sp_problem2.png) 0 -37px no-repeat}

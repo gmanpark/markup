@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        @charset "utf-8";
+        /* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+        /* common */
+        body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+        body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+        img,fieldset{border:0}
+        ul,ol{list-style:none}
+        em,address{font-style:normal}
+        a{text-decoration:none}
+        a:hover,a:active,a:focus{text-decoration:underline}
+        .blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+        body{
+            min-height:100%;
+            min-width:100%;
+        }
+        .cell_container{
+            background-color: #444444;
+            position: absolute;
+            width:100%;
+            height:100%;
+        }
+        .cell{
+            background-color: #dddddd;
+            display:table-cell;
+            vertical-align:middle;
+            text-align: center;
+        }
+        span{
+        }
+        span {
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .box{
+            top:50%;
+            left:50%;
+            position: relative;
+            width:100px;
+            height:100px;
+            margin:-50px 0 0 -50px;
+            background-color: #00535d;
+
+        }
+        .span_wrapper{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="cell_container">
+        <div class="box">
+            <div class="span_wrapper">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="UTF-8">
+    <title>문제 2 : 순위 리스트</title>
+    <link rel="stylesheet" type="text/css" href="css/1st_ranklist.css">
+</head>
+<body>
+<div id="wrap">
+    <!-- header -->
+    <div id="header">
+        <h1>NHN Technology Services 마크업 교육 문제</h1>
+    </div>
+    <!-- //header -->
+
+    <!-- container -->
+    <div id="container">
+        <div class="content">
+            <h2>2. 순위 리스트</h2>
+            <div class="list_rank">
+                <ol>
+                    <li class="rank_1">
+                        <span class="list_rank_text">준코</span>
+                        <img src="img/2_13.gif" class="rank_arrow">
+                        <span class="rank_hit">86</span>
+                    </li>
+                    <li class="rank_2">
+                        <span class="list_rank_text">골든디스크골든디스크골든디스크골든디스크</span>
+                        <img src="img/2_14.gif" class="rank_arrow">
+                    </li>
+                    <li class="rank_3">
+                        <span class="list_rank_text">수능만점자</span>
+                        <img src="img/2_14.gif" class="rank_arrow">
+                    </li>
+                    <li class="rank_4">
+                        <span class="list_rank_text">박창희</span>
+                        <img src="img/2_14.gif" class="rank_arrow">
+                    </li>
+                    <li class="rank_5">
+                        <span class="list_rank_text">진학사</span>
+                        <img src="img/2_14.gif" class="rank_arrow">
+                    </li>
+                    <li class="rank_6">
+                    <span class="list_rank_text">준코미니홈피</span>
+                    <img src="img/2_14.gif" class="rank_arrow">
+                    </li>
+                    <li class="rank_7">
+                        <span class="list_rank_text">배치표</span>
+                        <img src="img/2_13.gif" class="rank_arrow">
+                        <span class="rank_hit">1745</span>
+                    </li>
+                    <li class="rank_8">
+                        <span class="list_rank_text">수능등급컷</span>
+                        <img src="img/2_13.gif" class="rank_arrow">
+                        <span class="rank_hit">1</span>
+                    </li>
+                    <li class="rank_9">
+                        <span class="list_rank_text">붐</span>
+                        <img src="img/2_13.gif" class="rank_arrow">
+                        <span class="rank_hit">212</span>
+                    </li>
+                    <li class="rank_10">
+                        <span class="list_rank_text">무릎팍도사</span>
+                        <img src="img/2_13.gif" class="rank_arrow">
+                        <span class="rank_hit">1879</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <div id="footer">
+        <address>Copyright &#64; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+    <!-- //footer -->
+</div>
+</body>
+</html>

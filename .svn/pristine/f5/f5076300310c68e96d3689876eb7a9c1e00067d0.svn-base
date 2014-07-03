@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>NHN Technology Services 마크업 개발자 Pre-Test 응시 안내</title>
+<style type="text/css">
+/* layout */
+html, body{height:100%; margin:0;}
+#wrap{position:relative; width:auto; height:100%; margin:0 auto;}
+#header{position:relative; margin:0 auto;}
+#container{min-height:100%; margin:-48px auto -57px;}
+*html #container{height:100%;}
+#container .container_box{width:100%; padding:48px 0 57px;}
+#container .container_box:after{content:""; display:block; clear:both;}
+#content{width:100%; padding-bottom:100px;}
+#footer{clear:both; padding:22px 0 22px 0; margin:0 auto; text-align:center;}
+
+/* Footer */
+#footer *{margin:0; padding:0; color:#444; list-style:none; font:10px Verdana; line-height:normal;}
+#footer address strong{font-weight:bold; font-family:Tahoma; color:#00535d;}
+
+body{margin:0; font-size:13px; font-family:"나눔고딕"; line-height:1.5;}
+
+h1{width:100%; margin:0; padding:13px 0 11px; color:#fff; font-size:18px; line-height:24px; text-indent:15px; background:#000;}
+ol{margin:10px; padding:20px 50px; }
+ol li{margin:0; font-size:13px; margin-bottom:10px;}
+ol li span{color:#777;}
+
+p{font-size:18px; font-weight:bold; text-align:center;}
+p a{display:inline-block; margin-right:40px; padding:5px 10px; border:2px solid #666; color:#fff; text-decoration:none; background:#999;}
+</style>
+</head>
+
+<body>
+
+<div id="wrap">
+	<div id="header"><h1>NHN Technology Services 마크업 개발자 Pre-Test 응시 안내</h1></div>
+    <div id="container">
+    	<div class="container_box">
+        	<div id="content">
+        
+                <ol>
+                <li>Pre-Test 시간은 총 50분 입니다.</li>
+                <li>주어진 문제를 50분동안 완료하시면 됩니다.</li>
+                <li>제시한 문항을 html5 형태의 DOCTYPE 선언으로 마크업 하십시오.<br>
+                    <span>&lt;!DOCTYPE HTML&gt;</span>
+                </li>
+                <li>각 문항에 제시된 요구사항을 만족하도록 마크업 해주세요.</li>
+                <li>이미지는 <a href="img/">img</a> 폴더에 준비되어 있습니다.</li>
+                <li>최종 산출물은 바탕화면 Pre_test 폴더에 응시자이름.html 으로 저장합니다. <span>ex ) 홍길동.html</span></li>
+                <li>저장된 파일을 확인하신 후, 감독관에게 완료 되었음을 알려주시면 시험이 종료 됩니다.</li>
+                <li>문제보기를 클릭하시면 문항을 확인 하실 수 있습니다. 좋은 결과 있으시길 바랍니다~!! ^^</li>
+                </ol>
+                
+             	<p><a href="test_q.html">문제보기 ▶</a></p>
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <address>Copyright &copy; <strong>NHN Technology Services</strong> All Rights Reserved.</address>
+    </div>
+</div>
+
+</body>
+</html>
