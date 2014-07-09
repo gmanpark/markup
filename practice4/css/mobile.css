@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* NHN Web Standard 1Team JJS 090707, JJJ 090815 */
+
+/* common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/* nts header footer */
+h1{width:100%;margin:0;padding:13px 0 11px;background:#000;font-size:18px;line-height:24px;font-family:'나눔고딕',sans-serif;color:#fff;text-indent:15px}
+h2{font-size:16px;font-family:'나눔고딕',sans-serif}
+#footer{clear:both;margin:0;padding:10px;border-top:1px solid #ddd;font:10px Verdana;line-height:normal;color:#444;text-align:center;list-style:none}
+#footer address strong{font-weight:700;font-family:Tahoma,Geneva,sans-serif;color:#00535d}
+
+/* mobile */
+#content{width:335px;height:270px;margin:0 auto;border:1px solid #ddd}
+.sp_icon{background:url(../img/sp_mobile.png) no-repeat;background-size:150px auto}
+.btn_group1{overflow:hidden;margin:0 0 20px 0;padding:15px 0 0 12px}
+.btn_tw{display:block;float:left;margin-right:5px;width:36px;height:36px;background-position:0 0}
+.btn_fb{display:block;float:left;margin-right:5px;width:36px;height:36px;background-position:-41px 0}
+.btn_me{display:block;float:left;margin-right:5px;width:36px;height:36px;background-position:-82px 0}
+.btn_bookmark{float:left;margin-right:5px;background-position:-123px -224px;width:79px;height:34px;border:1px solid #afafaf;border-radius:3px}
+.btn_bookmark:hover{text-decoration:none}
+.btn_bookmark span{display:block;padding:8px 0 0 30px;font-family:"나눔고딕",sans-serif;font-size:14px;font-weight:bold;color:#444;letter-spacing:-1px}
+.btn_send{float:left;width:89px;height:34px;background-position:-121px -37px;border:1px solid #afafaf;border-radius:3px}
+.btn_send span{display:inline-block;padding:8px 0 0 32px;font-family:"나눔고딕" sans-serif;font-size:14px;font-weight:bold;color:#444;letter-spacing:-1px}
+.btn_send .send:after{display:inline-block;content:'';width:14px;height:12px;background:url(../img/sp_mobile.png) -86px -239px no-repeat;background-size:150px auto}
+.btn_send:hover{text-decoration:none}
+.btn_group2{overflow:hidden;padding:0 0 0 12px}
+.btn_group2 ul{visibility:hidden}
+.btn_group2 .btn_send{display:inline;width:89px;height:100%;border:1px solid #666}
+.btn_group2 .btn_send ul{visibility:visible;border-top:1px solid #666;margin-top:10px}
+.btn_group2 .btn_send .send:after{display:inline-block;content:'';width:14px;height:12px;background:url(../img/sp_mobile.png) -86px -215px no-repeat;background-size:150px auto}
+.btn_mail{display:block;background-position:6px -36px;height:35px}
+.btn_cafe{display:block;background-position:6px -70px;height:35px;border-top:1px solid #afafaf}
+.btn_blog{display:block;background-position:6px -106px;height:35px;border-top:1px solid #afafaf}
+.btn_yozm{display:block;background-position:6px -142px;height:35px;border-top:1px solid #afafaf}
